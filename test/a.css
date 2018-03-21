@@ -1,16 +1,17 @@
 body{
     background: black;
     color: white;
+    margin: 0;
 }
 .top-nav-bar>a{
     float: left;
     text-decoration: none;
 }
 .top-nav-bar{
-    padding: 16px 16px 20px 16px;
+    padding: 20px 16px 20px 16px;
 }
 .top-nav-bar>a {
-    padding-top: 14px;
+    padding-top: 3px;
     padding-bottom: 4px;
   }
 .top-nav-bar>a>span.rs{
@@ -26,10 +27,12 @@ body{
 }
 .topNavBar>nav {
     float: left;
-}
-.top-nav-bar>ul{
-    padding: 0px;
+    border-top: 3px;
     margin: 0px;
+}
+.top-nav-bar>nav>ul{
+    margin: 0px;
+    padding:0px;
 
 }
 .top-nav-bar>nav>ul>li{
