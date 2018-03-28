@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>简历</title>
+    <link rel="stylesheet" href="./a.css">
+    <script src="//at.alicdn.com/t/font_601842_nnez6tgdaddndn29.js"></script>
+    <style type="text/css">
+        .icon {
+           width: 1em; height: 1em;
+           vertical-align: -0.15em;
+           fill: currentColor;
+           overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-nav-bar">
+        <div class="inner clearfix">
+            <a href="#" class="logo">
+                <span class="rs">RS</span>
+                <span class="card">card</span>
+            </a>
+            <nav>
+                <ul class="clearfix">
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SKILLS</a></li>
+                    <li><a href="#">EXPERIENCE</a></li>
+                    <li><a href="#">PRICING</a></li>
+                    <li><a href="#">BLOG</a></li>
+                    <li><a href="#">CALENDAR</a></li>
+                    <li><a href="#">CONTACE</a></li>
+                    <li><a href="#">OTHER</a></li>
+                    <li><a href="#">ALL DEMOS</a></li>
+                </ul>
+            </nav>
+        </div>   
+    </div>
+    <div class="banner">
+        <div class="coverimg"></div>
+    </div>
+    <main>
+        <div class="usercard">
+            <div class="textandimg clearfix">
+                    <div class="picture">
+                        <img src="./picture/peo.jpg" alt="selfphoto">
+                    </div>
+                    <div class="text">
+                        <span class="welcome">hello</span>
+                        <div class="tri"></div>
+                        <h1>I'm Rayomd Yao</h1>
+                        <p>职称</p>
+                        <hr>
+                        <dl class="clearfix">
+                            <dt>年龄</dt>
+                            <dd>21</dd>
+                            <dt>所在城市</dt>
+                            <dd>杭州</dd>
+                            <dt>e-mail</dt>
+                            <dd>495898834@qq.com</dd>
+                            <dt>手机</dt>
+                            <dd>13306669716</dd>
+                            
+                        </dl>
+                    </div>
+            </div>
+            <footer class="media">
+                    <a href="#">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-github"></use>
+                        </svg>
+                        
+                    </a>
+                    <a href="#">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-twitter"></use>
+                        </svg>
+                    </a>
+                     <a href="#">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-weibo"></use>
+                        </svg>
+                    </a>
+            </footer>
+        </div>    
+    <p class="download-out">
+        <a href="./picture/简历.pdf" target="_blank" class="download">dowonload PDF</a>
+    </p> 
+    <p class="self-introduction">姚徵羽，前端爱好学习者，在杭州就读</p>   
+    </main>
+
+    <section class="skills">
+        <h2>Professional Skills</h2>
+        <ol class="clearfix">
+            <li>  
+                <h3>HTML5 &amp; CSS3 </h3>              
+                <div class="progress-bar">
+                <div class="progress"></div>
+                </div>
+            </li>
+            <li>
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                <div class="progress"></div>               
+                </div>
+            </li>
+            <li>                
+                <h3>jQuery</h3> 
+                <div class="progress-bar">
+                <div class="progress"></div>         
+                </div>      
+            </li>
+            <li>
+                <h3>Vue</h3>
+                <div class="progress-bar">
+                <div class="progress"></div>     
+                </div>
+            </li>
+            <li>
+                <h3>HTTP</h3> 
+                <div class="progress-bar">
+                <div class="progress"></div>             
+            </div>     
+            </li>
+            <li>
+                <h3>React</h3>   
+                <div class="progress-bar">
+                <div class="progress"></div> 
+                </div> 
+            </li>
+        </ol>
+    </section>
+    
+    <section class="portfolio">
+        <h2>Portfolio</h2>
+        <nav>
+            <ol>
+                <li id="bar1">All</li>
+                <li id="bar2">框架作品</li>
+                <li id="bar3">原生Js</li>
+            </ol>
+            <div id="bar" class="trans-bar stat-1">
+                <div class="bar-inner"></div>
+            </div>
+        </nav>
+        <script>
+            bar1.onclick=function()
+            {
+                bar.className='trans-bar stat-1'
+            }
+            bar2.onclick=function()
+            {
+                bar.className='trans-bar stat-2'
+            }
+            bar3.onclick=function()
+            {
+                bar.className='trans-bar stat-3'
+            }
+        </script>
+        <div class="jobs">
+            <div class="big">
+                <img src="./picture/big.jpg" alt="">
+            </div>
+            <div class="smalltwo">
+                <div class="small1">
+                    <img src="./picture/small1.jpg" alt="">
+                </div>
+                <div class="small2">
+                    <img src="./picture/small2.jpg" alt="">
+                </div>  
+            </div>
+        </div>
+    </section>
+</body>
+</html>

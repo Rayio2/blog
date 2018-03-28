@@ -1,0 +1,338 @@
+body{
+    background: #efefef;
+    margin: 0;
+}
+*{
+    margin:0;
+    padding: 0;
+}
+body>main{
+    margin-top: -340px;
+}
+body>main .download{
+    font-size: 14px;
+    line-height: 16px;
+    padding: 21px 55px;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #cdcfd1;
+    background: #efefef;
+    color: #3d4451;
+    font-weight: bold;
+    transition:box-shadow 0.2s;
+}
+.download-out{
+    text-align: center;
+    margin: 32px;
+}
+.download:hover{
+    -webkit-box-shadow: 0px 4px 7px -1px rgba(99,99,99,1);
+    -moz-box-shadow: 0px 4px 7px -1px rgba(99,99,99,1);
+    box-shadow: 0px 4px 7px -1px rgba(99,99,99,1);
+
+}
+
+.top-nav-bar>a{
+    float: left;
+    text-decoration: none;
+}
+.top-nav-bar{
+    padding: 20px 0px 20px 0px;
+    position:fixed;
+    width: 100%;
+    top:0;
+    left:0;
+}
+.top-nav-bar a {
+    float: left;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    text-decoration: none;
+  }
+.top-nav-bar a>span.rs{
+    color: rgb(221, 86, 109);
+    font-size: 24px;
+    font-family: "Arial Black";
+}
+.top-nav-bar a  >span.card{
+    color: rgba(143, 142, 142, 0.829);
+    font-size: 24px;
+    font-family: "Arial Black";
+    margin-left:4px;
+}
+.top-nav-bar nav {
+    float: right;
+    padding-top: 3px;
+    margin: 0px;
+}
+.top-nav-bar nav>ul{
+    margin: 0px;
+    padding:0px;
+}
+.top-nav-bar nav>ul>li{
+    float: left;
+    margin-left: 17px;
+    margin-right: 17px;
+    list-style: none;
+
+}
+.top-nav-bar nav>ul>li>a{
+    color:#b7b7b7;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: block;
+}
+.top-nav-bar nav>ul>li>a:hover{
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid #e06567 ;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.banner{
+    height: 515px;
+    background-image: url(./picture/rs-cover.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+.coverimg{
+    height:515px;
+    background-color: rgba(0,0,0,0.8);
+}
+.inner{
+    padding: 0 16px;
+}
+
+
+.usercard{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background: white;
+    -webkit-box-shadow: 0px 1px 9px -2px rgba(99,99,99,1);
+    -moz-box-shadow: 0px 1px 9px -2px rgba(99,99,99,1);
+    box-shadow: 0px 1px 9px -2px rgba(99,99,99,1);
+}
+.text{
+    float:left;
+    width: 470px;
+
+}
+.picture{
+    float:left;
+    padding-right: 65px;
+}
+.usercard dt{
+    float: left;
+    width: 30%;
+    font-weight: bold;
+    padding: 5px 0;
+}
+.usercard dd{
+    float: left;
+    width: 70%;
+    color: #9da0a7;
+    padding: 5px 0;
+}
+
+.welcome{
+    background: #E6686A;
+    color: white;
+    display: inline-block;
+    padding:4px 16px;
+    line-height: 22px;
+    
+}
+.tri{
+    border:10px solid  transparent;
+    width:0;
+    height:10px;
+    border-top-color: #E6686A;
+    border-left-width: 0;
+    margin:0 3px;
+    border-bottom: 0px;
+    
+ 
+}   
+hr{
+    margin: 20px 0;
+    height: 0;
+    border:none;
+    border-top: 1px solid #DEDEDE;
+}
+.usercard h1{
+    border: 0px;
+    margin: 0px;
+}
+.usercard>footer.media{
+    background: #E6686A;
+    text-align: center;
+
+}
+.usercard>footer.media>a{
+    display: inline-block;
+    width: 40px;
+    line-height: 30px;
+    padding: 5px 0;
+    border-radius: 50%;
+    margin: 16px;
+}
+.usercard svg{
+    width: 30px;
+    height: 30px; 
+    fill: white;
+    vertical-align: top;
+}
+.usercard > footer.media > a:hover{
+    background: #CF5D5F;
+}
+.usercard .textandimg{
+    padding:50px;
+}
+.self-introduction{
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+section.skills{
+    margin-top: 60px;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skills >h2{
+    line-height: 1.2;
+    text-align: center;
+    color:#3d4451;
+    font-weight: 600;
+    font-size: 34px;
+    margin-bottom: 50px;
+}
+.skills >ol{
+    background: white;
+    list-style: none;
+    box-shadow: 0px 1px 5px 0px black;
+    padding:42px 50px 10px;
+}
+.skills>ol>li{
+    width: 50%;
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+.skills>ol>li:nth-child(even){
+    width: 50%;
+    float: right;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+.skills .progress-bar{
+    height:5px;
+    background: #FAE1E1;
+    border-radius: 2px;
+    margin:4px 0 40px;
+}
+.skills .progress{
+    height:100%;
+    width:30%;
+    background: #CF5D5F;
+}
+.portfolio{
+    margin-top: 60px;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 800px;
+}
+.portfolio>h2{
+    line-height: 1.2;
+    text-align: center;
+    color:#3d4451;
+    font-weight: 600;
+    font-size: 34px;
+    margin-bottom: 50px;
+}
+.portfolio nav{
+    display: inline-block;
+    vertical-align: top;
+}
+.portfolio ol{
+    list-style: none;
+    margin:0 auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+.portfolio li{
+    float: left;
+    margin-left: 40px;
+    cursor: pointer;
+}
+.portfolio li:nth-child(1){
+    margin-left: 0;
+}
+.trans-bar{
+    background: white;
+    height:5px;
+}
+.bar-inner{
+    height:100%;
+    background: tomato;
+    width: 20%;
+    transition: 0.5s;
+}
+
+.portfolio .trans-bar.stat-1 .bar-inner{
+    margin-left: 0px;
+    width: 10%;
+}
+.portfolio .trans-bar.stat-2 .bar-inner{
+    margin-left: 70px;
+    width: 20%;
+}
+.portfolio .trans-bar.stat-3 .bar-inner{
+    margin-left: 170px;
+    width: 15%;
+}
+.jobs{
+    position: relative;
+    margin-top: 50px;
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    padding-left: 30px;
+}
+.big{
+    position: absolute;
+}
+.smalltwo:first-child{
+    position: absolute;
+    top:100px;
+}
+.smalltwo{
+    position: absolute;
+    left: 410px;
+}
+.smalltwo img{
+    width: 58.5%;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+.big>img{
+    width: 130%;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
