@@ -1,0 +1,36 @@
+*{
+    margin:0; padding: 0;
+}
+a{
+    text-decoration: none;
+}
+main{
+    text-align: center;
+    margin-top: 20px;
+}
+#yyy{
+    display: inline-block;
+}
+#yyy>div>kbd{
+    border:1px solid red;
+    width: 4em;
+    height: 4em;
+    display: inline-block;
+    text-transform: uppercase;
+    position: relative;
+}
+main > div:nth-child(2){
+    margin-left:2em;
+}
+main > div:nth-child(3){
+    margin-left:4em;
+}
+kbd > button{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+kbd:hover > button{
+    display: inline-block;
+}
